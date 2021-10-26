@@ -51,7 +51,7 @@ def send_email(subject='', body=''):
     server.starttls()
     server.ehlo()
 
-    server.login('pythonlogstest@gmail.com', 'eypgbhcnqezxjrhb')
+    server.login('putypuremailhere@gmail.com', 'putyourapppasswordhere')
 
     msg = f"Subject: {subject}\n\n{body}"
     server.sendmail(
